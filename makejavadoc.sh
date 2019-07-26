@@ -15,7 +15,7 @@ cd $(dirname "$0")
 # anything if the mkdir fails, i.e. there are existing files/directories
 # with the same name.
 mkdir "$TMP"
-mkdir -p "docs/java"
+mkdir -p "java"
 
 function finish {
     rm -rf "$TMP"
@@ -47,12 +47,12 @@ for tag in $TAGS; do
     ( cd tmp && ./gradlew -x compileJava javadoc || /usr/bin/true )
 
     # Remove old stuff, and copy new stuff over
-    rm -rf "docs/java/$tag"
-    mkdir -p "docs/java/$tag"
-    cp -a "$TMP/radixdlt-java/build/docs/javadoc/" "docs/java/$tag/"
+    rm -rf "java/$tag"
+    mkdir -p "java/$tag"
+    cp -a "$TMP/radixdlt-java/build/docs/javadoc/" "java/$tag/"
     rm -rf "$TMP"
 done
 
-echo "Please add, commit & push changed files and directories in docs/"
+echo "Please add, commit & push changed files and directories in master branch"
 
 exit 0
