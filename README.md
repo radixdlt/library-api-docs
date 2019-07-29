@@ -1,17 +1,30 @@
 # Radix client libraries APIs
 
-## [Java](https://docs.radixdlt.com/radixdlt-java)
+## [Java API](https://docs.radixdlt.com/radixdlt-java)
 
 * [1.0.0-beta-core-1.0.0-beta](java/1.0.0-beta-core-1.0.0-beta)
 
-## [JavaScript](https://docs.radixdlt.com/radixdlt-js)
+### [Library documentation](https://docs.radixdlt.com/radixdlt-java)
+
+## [JavaScript API](https://docs.radixdlt.com/radixdlt-js)
 
 * to be released
 
-## [Kotlin](https://docs.radixdlt.com/radixdlt-kotlin)
+### [Library documentation](https://docs.radixdlt.com/radixdlt-js)
+
+## [Kotlin API](https://docs.radixdlt.com/radixdlt-kotlin)
 
 * to be released
 
-## [Swift](https://docs.radixdlt.com/radixdlt-swift)
+## [Swift API](https://docs.radixdlt.com/radixdlt-swift)
 
 * to be released
+
+## Links
+
+| Link | Description |
+| :----- | :------ |
+[radixdlt.com](https://radixdlt.com/) | Radix DLT Homepage
+[documentation](https://docs.radixdlt.com/) | Radix Knowledge Base
+[forum](https://forum.radixdlt.com/) | Radix Technical Forum
+[@radixdlt](https://twitter.com/radixdlt) | Follow Radix DLT on Twitter
