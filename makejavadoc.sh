@@ -15,7 +15,7 @@ cd $(dirname "$0")
 # anything if the mkdir fails, i.e. there are existing files/directories
 # with the same name.
 mkdir "$TMP"
-mkdir -p "java"
+mkdir -p "radixdlt-java"
 
 function finish {
     rm -rf "$TMP"
@@ -47,9 +47,9 @@ for tag in $TAGS; do
     ( cd tmp && ./gradlew -x compileJava javadoc || /usr/bin/true )
 
     # Remove old stuff, and copy new stuff over
-    rm -rf "java/$tag"
-    mkdir -p "java/$tag"
-    cp -a "$TMP/radixdlt-java/build/docs/javadoc/" "java/$tag/"
+    rm -rf "radixdlt-java/$tag"
+    mkdir -p "radixdlt-java/$tag"
+    cp -a "$TMP/radixdlt-java/build/docs/javadoc/" "radixdlt-java/$tag/"
     rm -rf "$TMP"
 done
 
