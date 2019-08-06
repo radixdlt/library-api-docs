@@ -2,7 +2,7 @@
 
 ## [Java library](https://docs.radixdlt.com/radixdlt-java)
 
-* [1.0.0-beta-core-1.0.0-beta](java/1.0.0-beta-core-1.0.0-beta)
+* [1.0.0-beta-core-1.0.0-beta](radixdlt-java/1.0.0-beta-core-1.0.0-beta)
 
 📖 [Library documentation](https://docs.radixdlt.com/radixdlt-java)
 
