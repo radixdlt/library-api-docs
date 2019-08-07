@@ -8,7 +8,12 @@
 
 ## [JavaScript library](https://docs.radixdlt.com/radixdlt-js)
 
-* to be released
+* [2.0.0-beta.1](radixdlt-js/2.0.0-beta.1)
+* [1.0.9-alpha](radixdlt-js/1.0.9-alpha)
+* [1.0.8-alpha](radixdlt-js/1.0.8-alpha)
+* [1.0.7-alpha](radixdlt-js/1.0.7-alpha)
+* [1.0.6-alpha](radixdlt-js/1.0.6-alpha)
+* [1.0.5-alpha](radixdlt-js/1.0.5-alpha)	
 
 📖 [Library documentation](https://docs.radixdlt.com/radixdlt-js)
 
