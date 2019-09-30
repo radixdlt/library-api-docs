@@ -17,10 +17,6 @@
 
 📖 [Library documentation](https://docs.radixdlt.com/radixdlt-js)
 
-## [Kotlin library](https://docs.radixdlt.com/radixdlt-kotlin)
-
-* to be released
-
 ## [Swift library](https://docs.radixdlt.com/radixdlt-swift)
 
 * to be released
